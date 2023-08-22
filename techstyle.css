@@ -1,0 +1,442 @@
+
+@font-face {
+    font-family: roboto;
+    src: url(roboto-cufonfonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: h2;
+    src: url(roboto-cufonfonts/Roboto-BlackItalic.ttf);
+}
+@font-face {
+    font-family: p;
+    src: url(roboto-cufonfonts/Roboto-BlackItalic.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+.container1{
+    margin: auto;
+    width: 1300px;
+    height: 630px;
+    background-image: url(pexelsphoto3761118.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-family: h1;
+    color: white;
+    font-size: 35px;
+    margin-left: 60px;
+    padding-top: 320px;
+}
+.container1 h1{
+    font-family: h1;
+    color: white;
+    font-size: 35px;
+    margin-left: 60px;
+    padding-top: 350px;
+}
+.inputs{
+    padding: 10px;
+    width: 280px;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-family: h2;
+    border-style: none;
+}
+button{
+    padding: 10px;
+    margin-left: 7px;
+    width: 120px;
+    font-family: h1;
+    border-style: none;
+    background-color: #f1c50e;
+    color: white;
+}
+button:hover{
+    background-color: #ddbc38;
+}
+.container2{
+    margin: auto;
+    background-color: #f1c50e;
+    width: 1300px;
+    height: 570px;
+}
+.container2 .man2{
+    position: relative;
+    top: 30px;
+    left: 750px;
+
+}
+.container2head{
+    position: absolute;
+    top: 430px;
+    font-family: h1;
+    color: black;
+    font-size: 45px;
+    line-height: 50px;
+}
+.container2 p{
+    font-family: p;
+    position: relative;
+    left: 65px;
+    top: -227px;
+    line-height: 30px;
+    
+}
+.container3{
+    width: 1300px;
+    height: 455px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box1{
+    width: 262.5px;
+    height: 282px;
+    background-color: #e7331d;
+    font-family: p;
+    padding: 30px;
+    color: white;
+}
+.box2{
+    width: 262.5px;
+    height: 282px;
+    background-color: #f1c50e;
+    font-family: p;
+    padding: 30px;
+    color: black;
+}
+.box3{
+    width: 262.5px;
+    height: 282px;
+    background-color: #292d33;
+    font-family: p;
+    padding: 30px;
+    color: white;
+}
+.box4{
+    width: 262.5px;
+    height: 282px;
+    background-color: #555c66;
+    font-family: p;
+    padding: 30px;
+    color: white;
+}
+.heads{
+    font-size: 60px;
+}
+.subhead{
+    font-size: 18px;
+}
+.para{
+    font-family: h2;
+    padding-top: 20px;
+}
+i{
+    font-size: 50px;
+    padding-top: 40px;
+}
+.container4{
+    /* border: 1px solid; */
+    width: 1300px;
+    height: 1250px;
+    position: relative;
+    margin: auto;
+    background-color: #f1c50e;
+
+}
+.container14{
+    /* border: 1px solid; */
+    width: 870px;
+    height: 600px;
+    position: absolute;
+    right: 0%;
+    background-color: #292d33;
+
+
+}
+.pic1{
+    /* border: 1px solid; */
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    background-image: url(b4704305-02b9-df44-9385-ca1f598b4375.jpg);
+    background-size: cover;
+
+}
+.pic2{
+    /* border: 1px solid; */
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 550px;
+    top: 100px;
+    background-image: url(69567504b5d4d46d3d02a525a5798654.jpg);
+    background-size: cover;
+
+
+}
+.pic3{
+    /* border: 1px solid; */
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+    background-image: url(3aca5d6784ab3df60fe6cdf1e45adec7.jpg);
+    background-size: cover;
+}
+.pic4{
+    /* border: 1px solid; */
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 450px;
+    left: 550px;
+    background-image: url(82f152dd4d93f03c195531c931a4eb70.jpg);
+    background-size: cover;
+
+}
+.pic5{
+    
+    /* border: 1px solid; */
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 450px;
+    left: 900px;
+    background-image: url(5396baf5a88516441c2b2d30f9c941ae.jpg);
+    background-size: cover;
+
+}
+.pic6{
+    /* border: 1px solid; */
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 800px;
+    left: 200px;
+    text-align: center;
+
+}
+.pic6 h1{
+    padding: 5px;
+    margin-left: 10px;
+    color: black;
+}
+.pic6 p{
+    padding: 10px;
+    padding-top: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family:p;
+    line-height: 26px;
+}
+.pic7{
+    /* border: 1px solid; */
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 800px;
+    left: 550px;
+    background-image: url(PRFotografie_FirmenportraitskopfundkragenFotografie.jpg);
+    background-size: cover;
+
+}
+.pic8{
+    /* border: 1px solid; */
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 800px;
+    left: 900px;
+    background-image: url(1q.png);
+    background-size: cover;
+}
+.container5{
+    /* border: 1 px solid; */
+    margin: auto;
+    width: 1300px;
+    height: 780px;
+    background-color: #292d33;
+}
+.redbox{
+    width: 625px;
+    height: 300px;
+    background-color: #ee1b24;
+    position: relative;
+    top: 160px;
+    margin: auto;
+}
+.manbeard{
+    width: 449px;
+    height: 520px;
+    position: relative;
+    background-image: url(pexelsphoto412840.jpeg);
+    background-size: cover;
+    left: 433px;
+    top: -237px;
+}
+.poop h2{
+    margin: -164px 457px 0 480px;
+    font-size: 34px;
+    position: relative;
+    color: aliceblue;
+}
+.poop p{
+    margin: 29px 0px 18px 450px;
+    font-size: 20px;
+    position: relative;
+    color: aliceblue;
+}
+.container5{
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    /* width: 427;
+    height: 65; */
+    font-weight: 600;
+}
+.container6{
+    /* border: 1px solid; */
+    width: 1300px;
+    height: 410px;
+    margin: auto;
+    background-color: #ee1b24;
+}
+.container6 h1{
+    color: white;
+    text-align: center;
+    position:relative;
+    top: -280px;
+
+}
+.icon{
+    text-align: center;
+}
+.icon i{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    z-index: 100px;
+    padding: 10px;
+    top: -262px;
+    left: 30px;
+    margin: 0 0 0 0;
+}
+.container7{
+    
+    /* border: 1px solid; */
+    width: 1300px;
+    height: 600px;
+    background-color: #292d33;
+    margin: auto;
+    margin-top: -210px;
+}
+.yellow{
+    position: relative;
+    background-color: #f1c50e;
+    margin-left: 560px;
+    top: 1px;
+}
+.location{
+
+    color: white;
+    position: absolute;
+    top: 4035px;
+    padding: 122px;
+    line-height: 30px;
+    margin-top: -299px;
+
+}
+.loc-head{
+    font-family: h1;
+    font-size: 32px;
+    margin-top: 50px;
+}
+.loc-para{
+    font-family: h2;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.location i{
+    margin-top: -25px;
+    padding-right: 20px;
+    font-size: 32px;
+}
+.copy{
+    font-family: h2;
+    margin-top: 20px;
+}
+.form-set{
+    color: white;
+    position: relative;
+    bottom: 394px;
+    left: 600px;
+    font-family: h1;
+    padding: 25px;
+}
+.form-set h4{
+    font-size: 32px;
+    margin-bottom: -149px;
+    top: -133px;
+    position: relative;
+    left: 0px;
+}
+.form-set input{
+    padding: 10px;
+    font-size: 15px;
+    width: 480px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    border-style: none;
+    font-family: h2;
+    border-radius: 5px;
+}
+.form-set textarea{
+    padding: 10px;
+    font-size: 15px;
+    width: 480px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-style: none;
+    font-family: h2;
+    border-radius: 5px;
+}
+.form-set .btn{
+    padding: 10px;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: h2;
+    background-color: #f1c50e;
+    border-color: white;
+    color: white;
+    border: 2px solid;
+}
+.container8{
+    margin: auto;
+    /* border: 1px solid; */
+    width: 1300px;
+    height: 100px;
+    color: #ffffff;
+    background-color: #333333;
+}
+.container8 p{
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+    
